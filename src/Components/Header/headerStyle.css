@@ -1,0 +1,21 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo-img {
+	width: 140px;
+}
+
+.searchbar,
+.logo,
+.details {
+	display: flex;
+	align-items: center;
+}
+.icon{
+  color: white;
+}
+.search{
+  background-color: #121212;
+}
