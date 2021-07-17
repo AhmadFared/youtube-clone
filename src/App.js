@@ -26,6 +26,15 @@ const App = () => {
     });
     setSearchList(response.data.items);
   };
+
+  const [videoItem, setVideoItem] = useState("");
+
+  const onSetVideoItem = async (video) => {
+    await setVideoItem(video);
+  };
+  ////////////////////////
+  console.log(videoItem);
+  ////////////////////////
   return (
     <div className="app">
       <Router>
@@ -34,22 +43,38 @@ const App = () => {
           showSidebar={showSidebar}
           onSubmitSearch={handleSearchSubmit}
         />
-        <div className="main_page row">
-          {showSidebar && (
-            <SideBar
-              className="sidebar_component col"
-              onCloseSidebar={onShowSidebar}
-            />
-          )}
+        <div className="main">
+          <div className="home_page row">
+            {showSidebar && (
+              <SideBar
+                className="sidebar_component "
+                onCloseSidebar={onShowSidebar}
+              />
+            )}
+          </div>
+
+          <Switch>
+            <Route path="/search/:searchTerm">
+              <SearchPage
+                searchList={searchList}
+                onSetVideoItem={onSetVideoItem}
+              />
+            </Route>
+
+            <Route path="/video/:title">
+              <Video
+                video={videoItem}
+                videos={searchList}
+                onSetVideo={onSetVideoItem}
+              />
+            </Route>
+            <Route path="/">
+              <div className="main_component">
+                <Main />
+              </div>
+            </Route>
+          </Switch>
         </div>
-        <Switch>
-          <Route path="/search/:searchTerm">
-	    <SearchPage searchList={searchList} />
-          </Route>
-          <Route path="/">
-            <Main className="main_component col" />
-          </Route>
-        </Switch>
       </Router>
     </div>
   );

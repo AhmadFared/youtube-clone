@@ -5,7 +5,7 @@ import "./mainStyle.css"
 const Main = () => {
   
   return (
-    <div className="main">main page</div>
+    <div>main page</div>
   )
 }
 

@@ -1,11 +1,11 @@
-.app{
+.main{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  padding:0px 0 0 15px;
 }
 .sidebar_component{
-  flex: 0.5;
-  height: 100%;
 }
 .main_component {
-  flex: 0.5;
+  border: 1px solid blue;
+  margin:0px 0px 0 30px;
 }

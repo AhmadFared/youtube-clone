@@ -2,16 +2,32 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	border: 1px solid green;
 }
 .logo-img {
 	width: 140px;
+	border: 1px solid blue;
 }
 
-.searchbar,
-.logo,
+.searchbar{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid blue;
+}
+.logo{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left:0;
+	border: 1px solid blue;
+}
 .details {
 	display: flex;
 	align-items: center;
+	justify-content: space-around;
+	padding-right: 0;
+	border: 1px solid red;
 }
 .icon{
   color: white;
