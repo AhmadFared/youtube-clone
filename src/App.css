@@ -1,11 +1,15 @@
-.main{
+.main {
   display: flex;
   flex-direction: row;
-  padding:0px 0 0 15px;
+  padding: 0px 0 0 15px;
 }
-.sidebar_component{
+.sidebar_component {
 }
+
 .main_component {
-  border: 1px solid blue;
-  margin:0px 0px 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8px 0px 0 30px;
+  width: 100%;
+  width: 100vw;
 }

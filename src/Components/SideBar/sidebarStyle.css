@@ -1,9 +1,15 @@
 .sidebar {
-  border: 1px solid white;
+  margin: 0px 8px 0 0;
+  padding: 10px 0 0 0;
+  width: 225px;
+  background-color: #202020;
 }
-
-.sidebar-logo{
-  display:flex;
-  justify-content: space-around ;
-  border: 1px solid white;
+.sidebar-default {
+  margin: 0px 8px 0 0;
+  padding: 10px 0 0 0;
+  width: 70px;
+  background-color: #202020;
+}
+hr#sidebar-hr {
+  border-top: 1px solid #383838;
 }

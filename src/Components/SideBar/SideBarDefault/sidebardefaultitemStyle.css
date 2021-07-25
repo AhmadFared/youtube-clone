@@ -1,0 +1,29 @@
+.sidebar-default-item {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 70px;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.6;
+  margin: 6px 0 10px 0;
+  padding: 2px 0 2px 0;
+}
+.sidebar-default-item:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+#sidebar-default-item-active {
+  opacity: 1;
+}
+.sidebar-default-item-text {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.sidebar-default-item-icon {
+  width: 100%;
+  margin: 8px 0 8px 0;
+}

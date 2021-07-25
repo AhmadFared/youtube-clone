@@ -1,0 +1,29 @@
+.related-video-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 380px;
+  min-width: 250px;
+  margin-bottom: 10px;
+}
+.related-video {
+  display: flex;
+}
+.related-video-thumbnail {
+  width: 165px;
+}
+.related-video-details {
+  margin-left: 10px;
+  font-size: 14px;
+  padding: 2px;
+}
+.related-video-title {
+  margin: 0;
+  margin-bottom: 8px;
+  padding-left: 2px;
+}
+.related-video-channel-title {
+  margin: 0;
+  padding: 2px;
+
+  opacity: 0.6;
+}

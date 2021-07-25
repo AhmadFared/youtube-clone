@@ -1,12 +1,15 @@
 import React from "react";
+import MainPageVideo from "./MainPageVideo/MainPageVideo";
+import "./mainStyle.css";
 
-import "./mainStyle.css"
-
-const Main = () => {
-  
-  return (
-    <div>main page</div>
-  )
-}
+const Main = ({ videos, onSetVideo, showSidebar }) => {
+  return videos.map((video) => (
+    <MainPageVideo
+      video={video}
+      onSetVideo={onSetVideo}
+      showSidebar={showSidebar}
+    />
+  ));
+};
 
 export default Main;

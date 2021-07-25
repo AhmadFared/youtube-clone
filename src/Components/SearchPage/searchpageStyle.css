@@ -1,0 +1,24 @@
+.search-page {
+}
+.search-page-filter {
+  color: #aaaaaa;
+  opacity: 0.6;
+  margin-top: 24px;
+  padding-bottom: 6px;
+  display: flex;
+}
+.search-page-filter-icon {
+  margin: 0;
+}
+.search-page-filter-text {
+  font-size: 16px;
+  margin: 0;
+  margin-left: 10px;
+}
+hr#search-page-filter-hr {
+  border-top: 1px solid #303030;
+  margin-top: 0;
+}
+.search-list {
+  margin: 0;
+}

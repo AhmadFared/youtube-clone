@@ -1,0 +1,36 @@
+.search-item {
+  margin: 0;
+  margin-bottom: 16px;
+}
+.search-item-video {
+  display: flex;
+  flex-wrap: wrap;
+}
+.search-item-video-thumbnail {
+  max-width: 380px;
+  max-height: 280px;
+  padding: 0;
+}
+.search-item-video-info {
+}
+.search-item-video-title {
+  margin-top: 8px;
+  font-size: 18px;
+}
+.search-item-video-channel-info {
+  display: flex;
+  align-items: center;
+}
+.search-item-video-channel-avatar {
+}
+.search-item-video-channel-title {
+  margin-left: 10px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+.search-item-video-description {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  opacity: 0.6;
+}

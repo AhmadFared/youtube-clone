@@ -4,14 +4,15 @@ import SearchItem from "./SearchItem/SearchItem";
 import "./searchpageStyle.css";
 
 const SearchPage = ({ searchList, onSetVideoItem }) => {
-  console.log(searchList);
   return (
-    <div className="searchPage container">
-      <div className="SearchPage_filter">
-        <TuneIcon />
-        <h3>FILTER</h3>
+    <div className="search-page container">
+      <div className="search-page-filter">
+        <TuneIcon className="search-page-filter-icon" />
+        <p className="search-page-filter-text">FILTERS</p>
       </div>
-      <div className="searchList">
+      <hr id="search-page-filter-hr" />
+
+      <div className="search-list">
         {searchList.map((searchItem) => (
           <SearchItem searchItem={searchItem} onSetVideo={onSetVideoItem} />
         ))}

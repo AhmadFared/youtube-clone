@@ -1,0 +1,45 @@
+.main-page-item {
+  margin: 10px;
+}
+.main-page-item:hover {
+  text-decoration: initial;
+}
+.main-page-video {
+  width: 290px;
+}
+.main-page-video-sidebar-on {
+  margin-bottom: 40px;
+  width: 250px;
+}
+.main-page-video-thumbnail {
+  height: 170px;
+  width: 293px;
+}
+.main-page-video-thumbnail-sidebar-on {
+  height: 140px;
+  width: 250px;
+}
+.main-page-video-info {
+  display: flex;
+  margin: 10px 0 0 0;
+}
+.main-page-video-channel-avatar {
+}
+.main-page-video-info-txt {
+}
+.main-page-video-info-txt:hover:hover {
+  text-decoration: none;
+}
+.main-page-video-title {
+  font-size: 14px;
+  padding: 0 10px 0 10px;
+  margin: 0;
+}
+.main-page-video-channel-title {
+  padding: 0 10px 0 10px;
+  color: #aaaaaa;
+  margin: 0;
+}
+.main-page-video-channel-title:hover {
+  text-decoration: none;
+}
